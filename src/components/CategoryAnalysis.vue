@@ -25,14 +25,14 @@ export default {
           <button
             class="text-slate-400 font-semibold text-md hover:font-bold
             rounded-full hover:bg-cyan-50 hover:text-slate-800 h-7
-            px-2"
+            px-8"
           >
             Campaigns
           </button>
           <button
             class="text-slate-400 font-semibold text-md hover:font-bold
             rounded-full hover:bg-cyan-50 hover:text-slate-800
-            px-2"
+            px-8"
           >
             Segments
           </button>

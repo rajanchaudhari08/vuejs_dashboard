@@ -2,7 +2,7 @@
   <!-- Main Section -->
   <div class="">
     <!-- 1 -->
-    <div class="flex p-2 m-2 space-x-72 shadow-md rounded-md hover:bg-cyan-100">
+    <div class="flex p-2 m-2 justify-between shadow-md rounded-md hover:bg-cyan-100">
       <!-- Inner 1 -->
       <div class="flex space-x-3">
         <!-- Icon -->
@@ -24,27 +24,9 @@
         </div>
         <!-- Text + Arrow Icon + Desc -->
         <div>
-          <!-- Text + Arrow -->
-          <div class="flex space-x-2">
-            <!-- Text -->
-            <div class="text-md font-semibold text-slate-900 hover:text-cyan-400">
-              Abandoned Cart 7 Days
-            </div>
-            <!-- Arrow -->
-            <div class="p-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-6 h-6 text-cyan-500"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </div>
+          <!-- Text -->
+          <div class="text-md font-semibold text-slate-900 hover:text-cyan-400">
+            Abandoned Cart 7 Days
           </div>
           <!-- Desc -->
           <div class="text-sm text-slate-400">4024 Sent | 124 Clicks</div>
@@ -60,7 +42,9 @@
     </div>
 
     <!-- 2 -->
-    <div class="flex p-2 m-2 space-x-[325px] shadow-md rounded-md hover:bg-cyan-100">
+    <div
+      class="flex p-2 m-2 justify-between shadow-md rounded-md hover:bg-cyan-100"
+    >
       <!-- Inner 1 -->
       <div class="flex space-x-3">
         <!-- Icon -->
@@ -93,15 +77,15 @@
       <!-- Inner 2 -->
       <div class="text-right space-y-2">
         <!-- Number -->
-        <div class="text-md font-bold">
-            $24,521
-        </div>
+        <div class="text-md font-bold">$24,521</div>
         <!-- Desc -->
         <div class="text-sm text-slate-500">41 Orders | $150 AOV</div>
       </div>
     </div>
     <!-- 3 -->
-    <div class="flex p-2 m-2 space-x-[325px] shadow-md rounded-md hover:bg-cyan-100">
+    <div
+      class="flex p-2 m-2 justify-between shadow-md rounded-md hover:bg-cyan-100"
+    >
       <!-- Inner 1 -->
       <div class="flex space-x-3">
         <!-- Icon -->
