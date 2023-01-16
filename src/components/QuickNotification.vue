@@ -1,6 +1,6 @@
 <template>
   <!-- Main Section -->
-  <div class="m-3">
+  <div class="">
     <!-- 1 -->
     <div class="flex p-2 m-2 space-x-72 shadow-md rounded-md hover:bg-cyan-100">
       <!-- Inner 1 -->
@@ -36,7 +36,7 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="w-6 h-6"
+                class="w-6 h-6 text-cyan-500"
               >
                 <path
                   fill-rule="evenodd"

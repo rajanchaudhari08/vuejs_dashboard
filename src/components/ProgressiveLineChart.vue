@@ -47,7 +47,7 @@ for (let i = 0; i < 100; i++) {
 const data = {
   datasets: [
     {
-      borderColor: "#cffafe",
+      borderColor: "#67e8f9",
       borderWidth: 1,
       radius: 0,
       data: data1,

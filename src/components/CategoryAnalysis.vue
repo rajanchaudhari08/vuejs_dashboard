@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <div class="m-2 px-2">
+  <div class="px-2">
     <div class="flex">
       <div>
         <div class="flex justify-between px-2 shadow-sm rounded-full">
@@ -23,17 +23,22 @@ export default {
             Automations
           </button>
           <button
-            class="text-slate-400 font-semibold text-md hover:font-bold hover:text-slate-800 h-7"
+            class="text-slate-400 font-semibold text-md hover:font-bold
+            rounded-full hover:bg-cyan-50 hover:text-slate-800 h-7
+            px-2"
           >
             Campaigns
           </button>
           <button
-            class="text-slate-400 font-semibold text-md hover:font-bold hover:text-slate-800 h-7"
+            class="text-slate-400 font-semibold text-md hover:font-bold
+            rounded-full hover:bg-cyan-50 hover:text-slate-800
+            px-2"
           >
             Segments
           </button>
           <button
-            class="flex bg-smoke-300 text-slate-800 shadow-md rounded-full px-2 py-1 text-sm h-8"
+            class="flex bg-smoke-300 text-slate-900 font-semibold border-2 border-slate-200
+            rounded-full px-3 py-1 text-sm h-8"
           >
             <p>Last Month</p>
             <div>
@@ -43,7 +48,7 @@ export default {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6 text-cyan-500"
+                class="w-5 h-5 text-cyan-500"
               >
                 <path
                   stroke-linecap="round"

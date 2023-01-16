@@ -1,7 +1,7 @@
 <template>
-  <div class="pt-2 relative mx-2 text-slate-600">
+  <div class="pt-2 mb-2 relative text-slate-600">
     <input
-      class="bg-slate-100 h-10 w-48 px-2 pl-16 rounded-full text-base focus:outline-none"
+      class="bg-slate-100 h-10 w-48 pl-16 rounded-full text-base focus:outline-none"
       type="search"
       name="search"
       placeholder="Search"

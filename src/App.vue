@@ -20,14 +20,14 @@ export default {
 <template>
   <div class="flex">
     <!-- Sidebar -->
-    <div class="w-[300px]">
+    <div class="w-[225px] max-h-screen">
       <Sidebar />
     </div>
     <!-- Main Frame-->
-    <div class="w-full">
+    <div class="w-full max-h-screen">
       <!-- Header -->
-      <header class="!w-full">
-        <Header userName="Aman" />
+      <header>
+        <Header userName="Adam" />
       </header>
       <!-- Revenue -->
       <div class="px-5"><RevenueAnalysis /></div>

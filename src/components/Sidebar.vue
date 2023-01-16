@@ -58,14 +58,14 @@ export default {
 </script>
 
 <template>
-  <div class="px-3 py-2 border-r-[1px]">
+  <div class="flex justify-between flex-col h-full px-3 py-2 border-r-[1px]">
     <!-- 1 section -->
     <div>
       <div class="text-2xl font-bold text-center">BlueReceipt</div>
       <div>
         <SidebarSearch />
       </div>
-      <div class="m-2">
+      <div>
         <MenuItems active name="Dashboard" :icon="home" />
       </div>
       <div>
@@ -77,7 +77,7 @@ export default {
       </div>
     </div>
     <!-- 2 section -->
-    <div class="flex mt-56 space-x-4">
+    <div class="flex  space-x-4">
       <div>
         <img
           src="/assets/avatar-image.webp"

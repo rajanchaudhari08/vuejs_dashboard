@@ -22,18 +22,29 @@
     <!-- Paragraph -->
     <div class="text-sm text-slate-500">+$32,050 in the last month</div>
   </div>
-  <div class="h-56 w-64 flex justify-center">
-    <Doughnut
-      :data="data"
-      :options="{
-        elements: {
-          arc: {
-            borderRadius: 0,
-            borderWidth: 12,
+  <div class="flex justify-center">
+    <div class="w-48">
+      <Doughnut
+        :data="data"
+        :options="{
+          hover: {
+            mode: null
           },
-        },
-      }"
-    />
+    
+          plugins: {
+            tooltip: {
+              enabled: false,
+            },
+          },
+          elements: {
+            arc: {
+              borderRadius: 0,
+              borderWidth: 12,
+            },
+          },
+        }"
+      />
+    </div>
   </div>
 </template>
 

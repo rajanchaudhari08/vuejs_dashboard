@@ -19,7 +19,7 @@ export default {
       this.hourStatus = "Evening";
     }
     const today = new Date();
-    const options = { day: "numeric", month: "long", year: "numeric" };
+    const options = { day: "numeric", month: "short", year: "numeric" };
     this.currentDate = today.toLocaleDateString("en-US", options);
   },
 };
@@ -27,7 +27,7 @@ export default {
 
 <template>
   <header>
-    <div class="flex justify-between p-5 space-x-48">
+    <div class="flex justify-between p-4">
       <div class="flex space-x-3">
         <div>
           <img
@@ -36,12 +36,12 @@ export default {
             class="h-14 rounded-full border-2"
           />
         </div>
-        <div class="space-y-1">
-          <div class="text-3xl font-bold">
-            {{ hourStatus }}
+        <div>
+          <div class="text-2xl font-semibold">
+            Good {{ hourStatus }}
             {{ userName }}
           </div>
-          <div class="text-slate-500">
+          <div class="text-[14px] text-slate-500">
             <p>
               Here are your stats for Today:
               <span>
@@ -51,32 +51,32 @@ export default {
           </div>
         </div>
       </div>
-      <div class="flex space-x-5">
+      <div class="flex space-x-2">
         <div>
           <button
             type="button"
-            class="inline-block px-4 py-1 border-2 border-slate-200 text-slate-800 font-bold text-sm
-            leading-tight rounded-full hover:shadow-sm"
+            class="inline-block px-3 py-1 border-2 border-slate-200 text-slate-800 font-bold text-sm leading-tight rounded-full hover:shadow-sm"
           >
             Today
           </button>
         </div>
         <div>
-          <span class="text-slate-500">compared to</span>
+          <span class="text-slate-500 text-sm">compared to</span>
         </div>
         <div>
           <button
-            class="flex bg-smoke-300 text-gray-700 shadow-md rounded-full px-2 py-1 text-sm h-8 w-22"
+            class="flex text-slate-800 border-2 border-slate-200 hover:shadow-md
+            rounded-full px-2 py-1 text-xs"
           >
-            Previous
+            Previous Period
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                stroke-width="2"
                 stroke="currentColor"
-                class="w-5 h-6 text-cyan-500"
+                class="w-4 h-4 text-cyan-500"
               >
                 <path
                   stroke-linecap="round"
