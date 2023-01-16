@@ -17,22 +17,23 @@ export default {
       <div>
         <div class="flex justify-between px-2 shadow-sm rounded-full">
           <button
-            class="active:text-gray-800 active:font-bold underline decoration-solid decoration-cyan-500 decoration-2 underline-offset-8 font-semibold text-md h-7"
+            class="active:text-slate-800 active:font-bold underline decoration-solid decoration-cyan-500 
+            decoration-2 underline-offset-8 font-semibold text-md h-7"
           >
             Automations
           </button>
           <button
-            class="text-violet-300 font-semibold text-md hover:font-bold hover:text-gray-800 h-7"
+            class="text-slate-400 font-semibold text-md hover:font-bold hover:text-slate-800 h-7"
           >
             Campaigns
           </button>
           <button
-            class="text-violet-300 font-semibold text-md hover:font-bold hover:text-gray-800 h-7"
+            class="text-slate-400 font-semibold text-md hover:font-bold hover:text-slate-800 h-7"
           >
             Segments
           </button>
           <button
-            class="flex bg-smoke-300 text-gray-700 shadow-md rounded-full px-2 py-1 text-sm h-8"
+            class="flex bg-smoke-300 text-slate-800 shadow-md rounded-full px-2 py-1 text-sm h-8"
           >
             <p>Last Month</p>
             <div>

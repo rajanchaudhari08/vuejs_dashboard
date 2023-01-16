@@ -2,7 +2,7 @@
   <!-- Main Section -->
   <div class="m-3">
     <!-- 1 -->
-    <div class="flex p-2 m-2 space-x-72 shadow-md rounded-md hover:bg-sky-100">
+    <div class="flex p-2 m-2 space-x-72 shadow-md rounded-md hover:bg-cyan-100">
       <!-- Inner 1 -->
       <div class="flex space-x-3">
         <!-- Icon -->
@@ -27,7 +27,7 @@
           <!-- Text + Arrow -->
           <div class="flex space-x-2">
             <!-- Text -->
-            <div class="text-md font-semibold text-gray-900 hover:text-sky-400">
+            <div class="text-md font-semibold text-slate-900 hover:text-cyan-400">
               Abandoned Cart 7 Days
             </div>
             <!-- Arrow -->
@@ -60,7 +60,7 @@
     </div>
 
     <!-- 2 -->
-    <div class="flex p-2 m-2 space-x-[325px] shadow-md rounded-md hover:bg-sky-100">
+    <div class="flex p-2 m-2 space-x-[325px] shadow-md rounded-md hover:bg-cyan-100">
       <!-- Inner 1 -->
       <div class="flex space-x-3">
         <!-- Icon -->
@@ -83,7 +83,7 @@
         <!-- Text + Desc -->
         <div class="space-y-2">
           <!-- Text -->
-          <div class="text-md font-semibold text-gray-900 hover:text-sky-400">
+          <div class="text-md font-semibold text-slate-900 hover:text-cyan-400">
             Abandoned Cart 15 Min
           </div>
           <!-- Desc -->
@@ -101,7 +101,7 @@
       </div>
     </div>
     <!-- 3 -->
-    <div class="flex p-2 m-2 space-x-[325px] shadow-md rounded-md hover:bg-sky-100">
+    <div class="flex p-2 m-2 space-x-[325px] shadow-md rounded-md hover:bg-cyan-100">
       <!-- Inner 1 -->
       <div class="flex space-x-3">
         <!-- Icon -->
@@ -124,7 +124,7 @@
         <!-- Text + Desc -->
         <div class="space-y-2">
           <!-- Text -->
-          <div class="text-md font-semibold text-gray-900 hover:text-sky-400">
+          <div class="text-md font-semibold text-slate-900 hover:text-cyan-400">
             Abandoned Cart 15 Min
           </div>
           <!-- Desc -->

@@ -55,7 +55,7 @@ export default {
         <div>
           <button
             type="button"
-            class="inline-block px-4 py-1 border-2 border-gray-200 text-gray-800 font-bold text-xs
+            class="inline-block px-4 py-1 border-2 border-slate-200 text-slate-800 font-bold text-sm
             leading-tight rounded-full hover:shadow-sm"
           >
             Today
