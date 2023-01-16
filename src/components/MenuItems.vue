@@ -1,0 +1,25 @@
+<script>
+export default {
+  props: {
+    name: String,
+    active: Boolean,
+    icon: null,
+  },
+};
+</script>
+
+<template>
+  <div
+    :class="[
+      'flex space-x-2 items-center rounded-md px-2 py-2 w-full hover:bg-blue-100',
+      {
+        'bg-blue-50 font-semibold': active,
+      },
+    ]"
+  >
+    <component :is="icon" v-if="icon" class="h-5 w-5" />
+    <button class="rounded-md text-left">
+      {{ name }}
+    </button>
+  </div>
+</template>
