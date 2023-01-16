@@ -1,14 +1,14 @@
 <template>
-  <div class="pt-2 relative mx-2 text-gray-600">
+  <div class="pt-2 relative mx-2 text-slate-600">
     <input
-      class="bg-gray-100 h-10 w-48 px-2 pl-16 rounded-full text-base focus:outline-none"
+      class="bg-slate-100 h-10 w-48 px-2 pl-16 rounded-full text-base focus:outline-none"
       type="search"
       name="search"
       placeholder="Search"
     />
     <button type="submit" class="absolute left-0 top-0 mt-5 ml-4">
       <svg
-        class="text-gray-500 h-4 w-4 fill-current hover:"
+        class="text-slate-500 h-4 w-4 fill-current hover:"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         version="1.1"

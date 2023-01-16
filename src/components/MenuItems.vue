@@ -11,9 +11,9 @@ export default {
 <template>
   <div
     :class="[
-      'flex space-x-2 items-center rounded-md px-2 py-2 w-full hover:bg-blue-100',
+      'flex space-x-2 items-center rounded-md px-2 py-2 w-full hover:bg-cyan-100',
       {
-        'bg-blue-50 font-semibold': active,
+        'bg-cyan-50 font-semibold': active,
       },
     ]"
   >

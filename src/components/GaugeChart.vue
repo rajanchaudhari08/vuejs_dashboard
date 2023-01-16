@@ -22,18 +22,18 @@
     <!-- Paragraph -->
     <div class="text-sm text-slate-500">+$32,050 in the last month</div>
   </div>
-  <div>
-    <Doughnut :data="data" :options="{
-    
-      elements: {
-        
-        arc: {
-          borderRadius: 0,
-          borderWidth: 12,
-
-        }
-      }
-    }" />
+  <div class="h-56 w-64 flex justify-center">
+    <Doughnut
+      :data="data"
+      :options="{
+        elements: {
+          arc: {
+            borderRadius: 0,
+            borderWidth: 12,
+          },
+        },
+      }"
+    />
   </div>
 </template>
 
@@ -64,18 +64,18 @@ ChartJS.register(
 );
 
 const data = {
-  labels: ["Blue", "White"],
+  labels: ["Gain", "Loss"],
   datasets: [
     {
       data: [75, 25],
-      backgroundColor: ["blue", "white"],
+      backgroundColor: ["cyan", "white"],
       hoverOffset: 4,
     },
   ],
 };
 
 const options = {
-  maintainAspectRatio: false,
+  maintainAspectRatio: true,
   responsive: true,
   elements: {
     arc: {
