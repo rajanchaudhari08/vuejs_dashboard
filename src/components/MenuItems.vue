@@ -1,13 +1,3 @@
-<script>
-export default {
-  props: {
-    name: String,
-    active: Boolean,
-    icon: null,
-  },
-};
-</script>
-
 <template>
   <div
     :class="[
@@ -18,8 +8,27 @@ export default {
     ]"
   >
     <component :is="icon" v-if="icon" class="h-5 w-5" />
-    <button class="rounded-md text-left text-sm">
+
+   
+    <button v-if="open" class="rounded-md text-left text-sm">
       {{ name }}
     </button>
   </div>
 </template>
+
+<script>
+export default {
+  name: "MenuItems",
+  props: {
+    name: String,
+    active: Boolean,
+    open: Boolean,
+    icon: null,
+  },
+  watch: {
+    isOpen() {
+      this.$;
+    },
+  },
+};
+</script>

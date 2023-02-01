@@ -7,6 +7,11 @@ import ProgressiveLineChart from "./components/ProgressiveLineChart.vue";
 
 export default {
   name: "App",
+  data() {
+    return {
+      isOpen: false,
+    }
+  },
   components: {
     Header,
     Sidebar,
@@ -18,10 +23,10 @@ export default {
 </script>
 
 <template>
-  <div class="flex">
+  <div class="flex w-full">
     <!-- Sidebar -->
-    <div class="w-[225px] max-h-screen">
-      <Sidebar />
+    <div class=" max-h-screen">
+      <Sidebar :isOpen="isOpen" @onClick="isOpen = !isOpen" />
     </div>
     <!-- Main Frame-->
     <div class="w-full max-h-screen">
@@ -32,7 +37,8 @@ export default {
       <!-- Revenue -->
       <div class="px-5"><RevenueAnalysis /></div>
       <div class="p-3">
-        <ProgressiveLineChart />
+        <!-- we need render this  wait -->
+        <ProgressiveLineChart :key="isOpen ? 0 : 1" />
       </div>
       <div>
         <CategoryAnalysis />

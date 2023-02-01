@@ -60,7 +60,6 @@ export default {
           </button>
         </div>
 
-
         <div class="w-[48rem]"><QuickNotification /></div>
       </div>
 
